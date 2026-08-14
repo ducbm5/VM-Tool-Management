@@ -1,0 +1,6 @@
+{
+  "name": "VM Tool Portal",
+  "description": "VM Tool Management — Editorial Neo-Brutalist Tool Hub for VnExpress Marathon operations, ticketing, sales, shirt sizing, and BIB management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

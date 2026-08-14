@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-newsprint: #F8F6F0;
+    --text-charcoal: #2D2D2D;
+    --accent-divider: #E0DDD5;
+    --accent-gray: #E5E2D9;
+  }
+
+  body {
+    background-color: #F8F6F0;
+    color: #2D2D2D;
+    font-family: 'Merriweather', Georgia, serif;
+  }
+
+  /* Force sharp brutalist styling */
+  * {
+    border-color: #2D2D2D;
+  }
+}
+
+.font-serif {
+  font-family: 'Merriweather', Georgia, serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom crisp scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8F6F0;
+  border-left: 1px solid #E0DDD5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2D2D2D;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
+
