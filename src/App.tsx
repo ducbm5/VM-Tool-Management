@@ -50,6 +50,14 @@ const TOOLS: ToolItem[] = [
     url: 'https://vm-import.vercel.app/',
     category: 'ATHLETE BIB',
     description: 'Hệ thống tải lên và xử lý danh sách số báo danh (BIB) vận động viên.'
+  },
+  {
+    id: 6,
+    code: '06',
+    title: 'Minigame',
+    url: 'https://vm-minigame.vercel.app/',
+    category: 'MINIGAME',
+    description: 'Nền tảng tổ chức các hoạt động minigame và tương tác sự kiện VnExpress Marathon.'
   }
 ];
 
@@ -79,7 +87,7 @@ export default function App() {
               </h1>
             </div>
             <div className="font-mono text-xs text-[#2D2D2D] bg-[#E5E2D9] px-3 py-1.5 border border-[#2D2D2D] shrink-0">
-              TỔNG SỐ: <strong>5 CÔNG CỤ</strong>
+              TỔNG SỐ: <strong>{TOOLS.length} CÔNG CỤ</strong>
             </div>
           </div>
         </header>
